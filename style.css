@@ -149,14 +149,14 @@
     align-items:center;
     justify-content:space-evenly;
     padding: 10px;
-    height: 450px;
+    height: 400px;
 }
  .multi-box{
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
      
-      height:400px ;
+      height:350px ;
       
     }
     .items{
@@ -189,7 +189,7 @@ margin: 10px;
   display: flex;
   flex-direction: column;
 justify-content: center;
-  /* align-items: center; */
+ 
   border-radius: 0.5rem;
   
 }
