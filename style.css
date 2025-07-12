@@ -223,7 +223,7 @@ justify-content: center;
     display: flex;
 
     justify-content: space-evenly;
-    
+    padding: 15px;
      
     background-color: #232f3e;;
 }
@@ -247,7 +247,35 @@ justify-content: center;
    font-size: 0.8rem;
 }
 
+.foot-three{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+   background-color: #0f1111;
+   border-top: 1px solid white;
+   color: white;
+   height: 60px;
+}
 
+.logo-foot
+{
+    background-image: url("assets/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+
+   
+}
+
+
+.text-foot a{
+  padding: 5px 10px;
+  border: 2px solid rgba(255, 255, 255, 0.089);
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin:1.5rem;
+}
 
 /* ----------- Mobile Devices (max-width: 600px) ----------- */
 @media only screen and (max-width: 600px) {
